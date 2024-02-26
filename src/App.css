@@ -1,0 +1,96 @@
+/* App.css */
+
+body {
+    font-family: 'calibri';
+    margin: 0;
+    background: linear-gradient(to bottom, #fffff9, #fffacf);
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .banner {
+    max-width: 100%;
+    width: 25%;
+  }
+  
+  .description {
+    display: flex;
+  }
+  
+  .trophy {
+    max-width: 100%;
+    width: 70%;
+  }
+  
+  .pic2,
+  .supplies-img {
+    max-width: 100%;
+  }
+  
+  .supplies {
+    padding: 0 13%;
+    text-align: center;
+  }
+  
+  hr {
+    background: red;
+    height: 1px;
+  }
+  
+  .end {
+    text-align: center;
+    padding: 0 5%;
+  }
+  
+  .footer {
+    display: flex;
+    padding: 2% 10%;
+    background-color: red;
+    margin: 0 1%;
+    justify-content: space-between;
+  }
+  
+  .icons {
+    color: white;
+  }
+  
+  .highlight {
+    color: red;
+  }
+  
+  
+  @media only screen and (max-width: 425px) {
+    .banner {
+      width: 50%;
+    }
+  
+    .description {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trophy {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .supplies {
+      padding: 0 5%;
+    }
+  
+   
+      
+     
+      @media only screen and (max-width: 428px) {
+        .footer {
+          display: block;
+          padding: 1rem 2.5%;
+          background-color: red;
+          margin: 0 1%;
+          
+        }
+      }
+  }
+  
